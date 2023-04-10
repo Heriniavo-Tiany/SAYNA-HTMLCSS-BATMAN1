@@ -991,6 +991,9 @@
     padding: 10px 28px;
     position: relative;
 }
+.frame-1584:hover {
+    background: linear-gradient(to bottom, rgb(25, 88, 125), rgba(237, 222, 191, 0.4)) 100%;
+}
 
 .des-films {
     letter-spacing: -0.41px;
