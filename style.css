@@ -145,7 +145,7 @@
 }
 
 .group-1568:hover {
-   box-shadow: 5px 3px 25px rgba(255, 255, 255, 40) ;
+    content: url('/assets/Logos/logo_sayna_white-hover.png');
 }
 
 .group-1590 {
@@ -343,6 +343,7 @@
     gap: 42px;
     margin-right: 29px;
     min-width: 317px;
+    z-index: 4;
 }
 
 .group-1581 {
@@ -355,6 +356,10 @@
 .vector {
     height: 51px;
     width: 51px;
+}
+
+.vector:hover {
+    content: url('/assets/Logos/icon_DC-hover.png');
 }
 
 .group-1537 {
@@ -371,6 +376,10 @@
     margin-top: 1px;
     object-fit: cover;
     width: 18px;
+}
+
+.sayna-logo-blanc:hover {
+    content: url('/assets/Logos/logo_sayna_white-hover.png');
 }
 
 .sayna-logo-blanc {
@@ -1411,7 +1420,7 @@ body {
     content: url('/assets/Logos/frame-1584.png');
 }
 
-#logo-fb:hover{
+.logo-fb:hover{
     content: url('/assets/Logos/icon_facebook-hover.png');
 }
 
@@ -1419,11 +1428,11 @@ body {
     z-index: 44;
 }
 
-#logo-ig:hover{
+.logo-ig:hover{
     content: url('/assets/Logos/icon_ig-hover.png');
 }
 
-#logo-tw:hover{
+.logo-tw:hover{
     content: url('/assets/Logos/icon_tw-hover.png');
 }
 
