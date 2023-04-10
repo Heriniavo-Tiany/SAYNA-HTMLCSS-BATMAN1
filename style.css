@@ -144,6 +144,10 @@
     width: 1069px;
 }
 
+.group-1568:hover {
+   box-shadow: 5px 3px 25px rgba(255, 255, 255, 40) ;
+}
+
 .group-1590 {
     align-items: flex-end;
     display: flex;
