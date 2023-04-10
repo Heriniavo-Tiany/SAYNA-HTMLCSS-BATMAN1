@@ -442,12 +442,16 @@
 }
 
 .overlap-group1 {
-    align-items: flex-end;
+    align-items: center;
     background: linear-gradient(180deg, rgba(137, 0, 8, 0.6) 0%, rgba(252, 232, 216, 0.4) 100%);
-    display: flex;
+    /*display: flex;*/
     height: 64px;
     min-width: 248px;
-    padding: 18.8px 54.3px;
+    /*padding: 18.8px 54.3px;*/
+}
+
+.overlap-group1:hover, .overlap-group1:active {
+    background: linear-gradient(180deg, rgb(137, 0, 8) 0%, rgb(252, 232, 216) 100%);
 }
 
 .voir-le-hros {
@@ -459,12 +463,16 @@
 }
 
 .overlap-group {
-    align-items: flex-end;
+    align-items: center;
     background: linear-gradient(180deg, rgba(137, 0, 8, 0.6) 0%, rgba(252, 232, 216, 0.4) 100%);
-    display: flex;
+    /*display: flex;*/
     height: 64px;
     min-width: 248px;
-    padding: 18.8px 39.3px;
+    /*padding: 18.8px 39.3px;*/
+}
+
+.overlap-group:hover, .overlap-group:active {
+    background: linear-gradient(180deg, rgb(137, 0, 8) 0%, rgb(252, 232, 216) 100%);
 }
 
 .les-adversaires {
@@ -489,6 +497,7 @@
     position: absolute;
     top: 0;
     width: 1236px;
+    /*z-index: -1;*/
 }
 
 .side-menu {
@@ -501,6 +510,7 @@
     padding: 0.4px 0;
     position: absolute;
     top: 0;
+    /*z-index: -1;*/
 }
 
 .side-menu__line {
