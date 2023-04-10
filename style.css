@@ -452,6 +452,7 @@
     margin-right: 0.07px;
     margin-top: 48px;
     min-width: 541px;
+    z-index: 3;
 }
 
 .overlap-group1 {
