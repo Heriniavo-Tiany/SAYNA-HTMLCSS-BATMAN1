@@ -1268,6 +1268,12 @@
     margin-top: 4px;
     min-height: 26px;
     width: 77px;
+    z-index: 5;
+}
+
+.place:hover {
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 .shadow-3 {
