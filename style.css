@@ -1291,19 +1291,25 @@
 }
 
 .social-icons-1 {
+
+    left: 1288px;
+    position: absolute;
+    top: 380px;
+    width: 104px;
+
     align-items: flex-start;
     display: flex;
     gap: 32px;
-    left: 1272px;
-    position: absolute;
-    top: 528px;
+    /*left: 1272px;*/
+    /*position: absolute;*/
+    /*top: 528px;*/
     transform: rotate(90deg);
     width: fit-content;
 }
 
 .icons-1 {
     height: 24px;
-    min-width: 24px;
+    /*min-width: 24px;*/
     position: relative;
     transform: rotate(-90deg);
 }
@@ -1434,6 +1440,15 @@ body {
 .logo-fb:hover{
     content: url('/assets/Logos/icon_facebook-hover.png');
 }
+
+.logo-up:hover{
+    content: url('/assets/Logos/logo_bat_flèche_hover.png');
+}
+
+.logo-down:hover{
+    content: url('/assets/Logos/logo_bat_flèche_2hover.png');
+}
+
 
 .social-icons-1{
     z-index: 44;
