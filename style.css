@@ -145,7 +145,7 @@
 }
 
 .group-1568:hover {
-    box-shadow: 5px 3px 25px rgba(255, 255, 255, 40) ;
+    box-shadow: 5px 3px 25px rgba(255, 255, 255, 40);
 }
 
 .group-1590 {
@@ -1005,6 +1005,7 @@
     padding: 10px 28px;
     position: relative;
 }
+
 .frame-1584:hover {
     background: linear-gradient(to bottom, rgb(25, 88, 125), rgba(237, 222, 191, 0.4)) 100%;
 }
@@ -1250,9 +1251,9 @@
     height: 147px;
     left: 0;
     padding: 55.5px 167px;
-/*    position: absolute;*/
-/*    top: 0;*/
-/*    width: 1440px;*/
+    /*    position: absolute;*/
+    /*    top: 0;*/
+    /*    width: 1440px;*/
 }
 
 .menu__line-tab {
@@ -1318,44 +1319,28 @@
 /* Variables */
 
 :root {
-    --black
-    : rgba(0, 0, 0, 1);
-    --blumine
-    : rgba(25, 88, 125, 1);
-    --silver
-    : rgba(188, 187, 189, 1);
-    --concrete
-    : rgba(242, 242, 242, 1);
-    --white
-    : rgba(255, 255, 255, 1);
+    --black: rgba(0, 0, 0, 1);
+    --blumine: rgba(25, 88, 125, 1);
+    --silver: rgba(188, 187, 189, 1);
+    --concrete: rgba(242, 242, 242, 1);
+    --white: rgba(255, 255, 255, 1);
 
-    --font-size-xxxxs
-    : 10px;
-    --font-size-xxxs
-    : 12px;
-    --font-size-xxs
-    : 14px;
-    --font-size-xs
-    : 16px;
-    --font-size-s
-    : 18px;
-    --font-size-m
-    : 22px;
-    --font-size-l
-    : 36px;
+    --font-size-xxxxs: 10px;
+    --font-size-xxxs: 12px;
+    --font-size-xxs: 14px;
+    --font-size-xs: 16px;
+    --font-size-s: 18px;
+    --font-size-m: 22px;
+    --font-size-l: 36px;
 
-    --font-family-rajdhani
-    : "Rajdhani";
-    --font-family-roboto
-    : "Roboto";
-    --font-family-space_grotesk
-    : "Space Grotesk";
+    --font-family-rajdhani: "Rajdhani";
+    --font-family-roboto: "Roboto";
+    --font-family-space_grotesk: "Space Grotesk";
 }
 
 /* Classes */
 
-.roboto-bold-concrete-12px
-{
+.roboto-bold-concrete-12px {
     color: var(--concrete
     );
     font-family: var(--font-family-roboto
@@ -1365,8 +1350,8 @@
     font-weight: 700;
     font-style: normal;
 }
-.spacegrotesk-normal-silver-16px
-{
+
+.spacegrotesk-normal-silver-16px {
     color: var(--silver
     );
     font-family: var(--font-family-space_grotesk
@@ -1376,8 +1361,8 @@
     font-weight: 400;
     font-style: normal;
 }
-.rajdhani-medium-white-20px
-{
+
+.rajdhani-medium-white-20px {
     color: var(--white
     );
     font-family: var(--font-family-rajdhani
@@ -1386,8 +1371,8 @@
     font-weight: 500;
     font-style: normal;
 }
-.spacegrotesk-normal-white-22px
-{
+
+.spacegrotesk-normal-white-22px {
     color: var(--white
     );
     font-family: var(--font-family-space_grotesk
@@ -1397,8 +1382,8 @@
     font-weight: 400;
     font-style: normal;
 }
-.rajdhani-semi-bold-white-22px
-{
+
+.rajdhani-semi-bold-white-22px {
     color: var(--white
     );
     font-family: var(--font-family-rajdhani
@@ -1408,8 +1393,8 @@
     font-weight: 600;
     font-style: normal;
 }
-.rajdhani-bold-white-36px
-{
+
+.rajdhani-bold-white-36px {
     color: var(--white
     );
     font-family: var(--font-family-rajdhani
@@ -1425,40 +1410,40 @@ body {
     padding: 0;
 }
 
-#logohome ,#arrows{
+#logohome, #arrows {
     z-index: 3;
 }
 
-#logohome:hover{
+#logohome:hover {
     content: url('./assets/Logos/logohome-hover.png');
 }
 
-#arrows:hover{
+#arrows:hover {
     content: url('./assets/Logos/frame-1584.png');
 }
 
-.logo-fb:hover{
+.logo-fb:hover {
     content: url('./assets/Logos/icon_facebook-hover.png');
 }
 
-.logo-up:hover{
+.logo-up:hover {
     content: url('./assets/Logos/logo_bat_flèche_hover.png');
 }
 
-.logo-down:hover{
+.logo-down:hover {
     content: url('./assets/Logos/logo_bat_flèche_2hover.png');
 }
 
 
-.social-icons-1{
+.social-icons-1 {
     z-index: 44;
 }
 
-.logo-ig:hover{
+.logo-ig:hover {
     content: url('./assets/Logos/icon_ig-hover.png');
 }
 
-.logo-tw:hover{
+.logo-tw:hover {
     content: url('./assets/Logos/icon_tw-hover.png');
 }
 
@@ -1481,7 +1466,7 @@ body {
     color: white;
 }
 
-option{
+option {
     color: black;
 }
 
@@ -1508,3 +1493,16 @@ html {
     scroll-behavior: smooth;
 }
 
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background: linear-gradient(to bottom, rgb(25, 88, 125), rgba(237, 222, 191, 0.4)) 100%;
+border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    z-index: 9999;
+}
