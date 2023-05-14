@@ -359,7 +359,7 @@
 }
 
 .vector:hover {
-    content: url('/assets/Logos/icon_DC-hover.png');
+    content: url('./assets/Logos/icon_DC-hover.png');
 }
 
 .group-1537 {
@@ -379,7 +379,7 @@
 }
 
 .sayna-logo-blanc:hover {
-    content: url('/assets/Logos/logo_sayna_white-hover.png');
+    content: url('./assets/Logos/logo_sayna_white-hover.png');
 }
 
 .sayna-logo-blanc {
@@ -1430,23 +1430,23 @@ body {
 }
 
 #logohome:hover{
-    content: url('/assets/Logos/logohome-hover.png');
+    content: url('./assets/Logos/logohome-hover.png');
 }
 
 #arrows:hover{
-    content: url('/assets/Logos/frame-1584.png');
+    content: url('./assets/Logos/frame-1584.png');
 }
 
 .logo-fb:hover{
-    content: url('/assets/Logos/icon_facebook-hover.png');
+    content: url('./assets/Logos/icon_facebook-hover.png');
 }
 
 .logo-up:hover{
-    content: url('/assets/Logos/logo_bat_flèche_hover.png');
+    content: url('./assets/Logos/logo_bat_flèche_hover.png');
 }
 
 .logo-down:hover{
-    content: url('/assets/Logos/logo_bat_flèche_2hover.png');
+    content: url('./assets/Logos/logo_bat_flèche_2hover.png');
 }
 
 
@@ -1455,11 +1455,11 @@ body {
 }
 
 .logo-ig:hover{
-    content: url('/assets/Logos/icon_ig-hover.png');
+    content: url('./assets/Logos/icon_ig-hover.png');
 }
 
 .logo-tw:hover{
-    content: url('/assets/Logos/icon_tw-hover.png');
+    content: url('./assets/Logos/icon_tw-hover.png');
 }
 
 .input-text {
@@ -1501,4 +1501,9 @@ option{
 /* Apply the fade-in animation to all elements */
 * {
     animation: fade-in 1s ease-out;
+}
+
+
+html {
+    scroll-behavior: smooth;
 }
