@@ -629,11 +629,15 @@
     width: fit-content;
 }
 
-.x510674 {
+.personnage {
     height: 458px;
     min-width: 304px;
     object-fit: cover;
     position: relative;
+}
+
+.personnage:hover {
+    transform: scale(1.1);
 }
 
 .catwoman-zo-kravitz-2008 {
